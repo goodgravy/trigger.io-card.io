@@ -1,0 +1,74 @@
+[
+{
+    "do": {
+        "android_add_permission": {
+            "permission": "android.permission.ACCESS_NETWORK_STATE"
+        }
+    }
+},
+{
+    "do": {
+        "android_add_permission": {
+            "permission": "android.permission.INTERNET"
+        }
+    }
+},
+{
+    "do": {
+        "android_add_permission": {
+            "permission": "android.permission.CAMERA"
+        }
+    }
+},
+{
+    "do": {
+        "android_add_permission": {
+            "permission": "android.permission.VIBRATE"
+        }
+    }
+},
+{
+    "do": {
+        "android_add_feature": {
+            "feature": "android.hardware.camera",
+            "required": "true"
+        }
+    }
+},
+{
+    "do": {
+        "android_add_feature": {
+            "feature": "android.hardware.camera.autofocus",
+            "required": "true"
+        }
+    }
+},
+{
+    "do": {
+        "android_add_feature": {
+            "feature": "android.hardware.camera.flash",
+            "required": "true"
+        }
+    }
+},
+{
+    "do": {
+        "android_add_activity": {
+            "activity_name": "io.card.payment.CardIOActivity",
+            "attributes": {
+                "android:configChanges": "keyboardHidden|orientation"
+            }
+        }
+    }
+},
+{
+    "do": {
+        "android_add_activity": {
+            "activity_name": "io.card.payment.DataEntryActivity",
+            "attributes": {
+                "android:screenOrientation": "portrait"
+            }
+        }
+    }
+}
+]

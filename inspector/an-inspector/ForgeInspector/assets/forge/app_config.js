@@ -1,0 +1,1 @@
+window.forge = {}; window.forge.config = {"plugins": {"inspector": {"hash": "notahash"}, "card_io": {"hash": "examplehash"}}};
